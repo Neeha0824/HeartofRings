@@ -59,6 +59,7 @@ border-radius: 15px 15px 15px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 
@@ -73,15 +74,16 @@ border-radius: 15px 15px 15px 15px;
 
 }
 
-.add-collection{
+/* .add-collection{
   float: right;
-  background-image: url('https://cdn.shoplightspeed.com/shops/606632/themes/8322/v/470989/assets/banner-right.png?20220305222838');
+  background-image: url('./images/ring.png');
   background-size: 100%; 
   background-repeat: no-repeat;
   position: scroll;
   height: 400px;
+  opacity: 0.5;
   margin-top: 100px;
-}
+} */
 
 .size{
   height: 400px;
@@ -95,6 +97,43 @@ border-radius: 15px 15px 15px 15px;
   margin-left: 15px;
   font-family: 'Dosis', sans-serif;
 
+}
+.off{
+  
+  margin-left: 19px;
+  font-family: 'Kalam', cursive;
+ 
+  margin-top: 55px;
+  font-size: 70px;
+  margin-left: 95px;
+
+}
+.shopnow{
+  height: 35px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  margin-left: 206px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+.saleinfo{
+  display: center;
+  font-size: 17px;
+  margin-left: 89px;
+  font-weight: 500px;
+  justify-content: center;
+  
+}
+.add-collection{
+margin-left: 20px;
+  /* background-color: rgba(238, 176, 104, 0.774); */
+  height: 300px;
+  width: 400px;
+}
+.custom{
+  font-size: 18px;
+  margin-left: 10px;
 }
 .design-title{
   font-family: 'Roboto Slab', serif;
