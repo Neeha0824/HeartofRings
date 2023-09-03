@@ -5,6 +5,7 @@
             Manufacturing Rings...
         </title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="javascript.js">
         
 
       
@@ -21,8 +22,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 
-
+<script src="https://unpkg.com/scrollreveal"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
 
 
     </head>
@@ -30,30 +32,20 @@
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
-            <img src="" alt="Logo" class="me-5 pe-5">
+            <img src="./images/Hearts of.png" alt="Logo" class="me-5 pe-5 logo">
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ">
-                <a class="nav-link nav-text me-5"  href="#">Home</a>
+                <a class="nav-link nav-text me-5 home"  href="#">Home</a>
                 <a class="nav-link nav-text me-5" href="#">Designs</a>
                 <a class="nav-link nav-text me-5" href="#">About Us</a>
                 <a class="nav-link nav-text me-5 nav-text">Contact Us</a>
                 <a class="nav-link me-5 nav-text">Testimonial</a>
                
 
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link nav-text dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false ">Dropdown</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-                    </ul>
-                </li>
             </div>
             </div>
         </div>
@@ -66,7 +58,7 @@
         <div class="carousel-caption text-carosal d-md-block">
             <h3 class="text-color">When people are gifted jwelery from someone<br>They love, They feel, cherished forever</h3>
             <p>
-              <button type="button" class=" see  ">See More Designs</button></p>
+              <button type="button" class="see ">See More Designs</button></p>
 
 
           </div>
@@ -105,7 +97,7 @@
 <div class="hide">
 
     <h3 class="textbox">When people are gifted jwelery from someoneThey love, They feel, cherished<br> forever</h3>
-    <p><button type="button" class="btn button btn-secondary box"><i>See More Designs</i></button></p>
+    <p><button type="button" class="see more"><i>See More Designs</i></button></p>
    
   </div>
 
@@ -148,10 +140,10 @@
     Our Designs 
   </DIV>
   <div class="row video-Div">
-    <video class="col-lg-2 col-md-4 col-sm-6 mt-2 "autoPlay loop  muted>
+    <!-- <video class="col-lg-2 col-md-4 col-sm-6 mt-2 "autoPlay loop  muted>
       <source src="images/1.mp4" type="video/mp4" />
-    </video>
-    <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
+    </video> -->
+    <video class="col-lg-2 col-md-4 col-sm-6 mt-2 vd-1"autoPlay loop  muted>
       <source src="images/2.mp4" type="video/mp4" />
     </video>
     <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
@@ -166,7 +158,7 @@
     <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
       <source src="images/6.mp4" type="video/mp4" />
     </video>
-    <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
+    <video class="col-lg-2 col-md-4 col-sm-6 mt-2 vd-1"autoPlay loop  muted>
       <source src="images/11.mp4" type="video/mp4" />
     </video>
     <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
@@ -181,105 +173,71 @@
     <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
       <source src="images/f12.mp4" type="video/mp4" />
     </video>
-    <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
+    <!-- <video class="col-lg-2 col-md-4 col-sm-6 mt-2"autoPlay loop  muted>
       <source src="images/f10.mp4" type="video/mp4" />
-    </video>
+    </video> -->
   </div>
 
-<!--   
-  <div class="row about-us">
-    <span class="left-div col-lg-6 col-sm-12 col-xs-12 mt-5">
-      <span class="img-about ">
-      <img class="pic-1" src="./images/celling-1.jfif">
-      <img class="pic-1" src="./images/store5.jfif">
-      <img class="pic-1" src="./images/6s.jfif">
-      <img class="pic-1" src="./images/store3.jfif"> -->
-      <!-- <img class="pic-1" src="./images/celling-1.jfif"> --> 
-    <!-- </span>
-    </span>
-    <span class="right-div col-lg-6 col-xs-6  mt-5 background">
+  <br>
+  <!-- <div class="row visit">
+  
+    <span class="left-div">
+      <h3>Need Guidance? Consult An Expert.</h3>
           
-      <span class="read">Read More About Us </span><br><span class="co-name">Rings of Hearts</span> a premier manufacturing company dedicated to creating exquisite and timeless rings. We are passionate about crafting exceptional pieces that capture the essence of love, commitment, and elegance.
-      We also offer customization options, allowing you to create a one-of-a-kind ring that perfectly matches your vision.<br><br> Our team will work closely with you, turning your dreams into a breathtaking reality.
-      At Rings of Hearts, we believe that love is a beautiful journey, and our rings are meant to accompany you every step of the way. We are honored to be a part of your special moments, and we strive to exceed your expectations with every ring we create.
-      Experience the magic of Rings of Hearts and let us be a part of your love story. Discover the perfect ring that speaks to your heart and soul, and let it be a symbol of your everlasting 
-       
-      <span class="team">Team Members</span>
-
-      <span class="Icons ">
-        <span class="IconDiv">
-       
-            <img class="IconIMG" src="https://thumbs.dreamstime.com/z/girl-office-worker-sitting-headphones-smiling-showing-thumb-up-happy-young-desk-laptop-wearing-gesture-106665747.jpg" alt="ShopAll">
-        
-        </span>
-
-        <span class="IconDiv">
-       
-          <img class="IconIMG" src="https://templatekit.selaraswp.com/jewelkit/wp-content/uploads/sites/10/2021/06/indoor-studio-fashion-portrait-of-pretty-young-mod-2N8X5KT.jpg" alt="ShopAll">
-      
-      </span>
-      <span class="IconDiv">
-       
-        <img class="IconIMG" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCIA-hWSRTEPeYYUfYfoK1yaLLzh1Q9r7xZw&usqp=CAU" alt="ShopAll">
-      </span>
-
-    <span class="IconDiv">
-       
-      <img class="IconIMG" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhAjRRHVRX4gABSmivwBvR2xbFxwqwpyFpnQ&usqp=CAU" alt="ShopAll">
     </span>
-    <span class="IconDiv">
        
-    <img class="IconIMG" src="https://www.shutterstock.com/image-photo/businessman-works-documents-260nw-525031867.jpg" alt="ShopAll">
+      <span class="right-div ">
+       
+        <!-- <img class="showroom" src="./images/showroom.webp"> -->
+       </span>
+     
+
+     
+
+
+  <!-- </div>   -->
+
+  <div class="backgroundring">
+    <span class="2ring">
+    <img class="showroom" src="./images/showroom.webp">
+  </span>
+
+  <span class="visit">
+   <span class="words">
+    Need Guidance? Consult An Expert.<br>
+  
    </span>
+   <h5>Receive one-on-one, personal guidance from our industry leading diamond experts in-store or online.</h5>
 
-    </span>
+  </span>
 
 
   </div>
-  <div class="row col-lg-12 cards">
+
     
 
-    <div class="cards">
-      <div class="card red">
-          <p class="tip"><img class="icon"src="https://templatekit.selaraswp.com/jewelkit/wp-content/uploads/sites/10/2021/06/artisan-forming-glass-closeup-E6LR5KS-1.jpg"></p>
-          <p class="second-text">Full servise Repair<br>
-            In-house while-you-wait</p>
-      </div>
-      <div class="card blue">
-          <p class="tip"><img class="icon"src="./images/celling-2.jfif "></p>
-          <p class="second-text"><img class="star"src="https://cdn-icons-png.flaticon.com/128/8141/8141341.png"><img class="star" src="https://cdn-icons-png.flaticon.com/128/8141/8141341.png">
-            <img class="star" src="https://cdn-icons-png.flaticon.com/128/8141/8141341.png"><img class="star"src="https://cdn-icons-png.flaticon.com/128/8141/8141341.png"><br>
-            
-          Over 1,000 Five Star Reviews
-          </p>
-      </div>
-      <div class="card green">
-          <p class="tip"><img class="icon"src="https://templatekit.selaraswp.com/jewelkit/wp-content/uploads/sites/10/2021/05/woman-assistant-shows-the-exclusive-gold-ring-in-t-M75AXXG.jpg"></p>
-          <p class="second-text">One-of-a-kind Custom Design</p>
-      </div>
-  </div>
     
 
-</div> -->
 
 
 
 
 
 
- <div class="white-container">
+<br>
+ <!-- <div class="white-container">
   <div  class="customer">
      <h1>  What clients say about us</h1>
      <h5>Experience the Best and Share Your Thoughts!</h5>
          
  </div>
 
-</div> 
+</div>  -->
 
 
 
    <!-- Flickity HTML init  -->
-  <br>
+  <!-- <br>
 <div class="imageslider"
 
 data-flickity='{ "wrapAround": true }'>
@@ -329,7 +287,7 @@ data-flickity='{ "wrapAround": true }'>
  </div>
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="contact-container">
 <span class="location">
@@ -369,7 +327,31 @@ data-flickity='{ "wrapAround": true }'>
   
     <!-- JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js">
-      // external js: flickity.pkgd.js
+        </script>
+<!-- 
+  // ScrollReveal({
+  //    reset: 1,
+  //    distance: '60px',
+  //    duration: 2500,
+  //    delay: 400,
+     
+     
+  //    });
+
+  //    ScrollReveal().reveal('.container .model-1 .model ', { delay: 500, origin: 'left' });
+  //    ScrollReveal().reveal('.container .model-2 .model2 ', { delay: 500, origin: 'bottom', });
+  //    ScrollReveal().reveal('.container .model-3 .model3 ', { delay: 500, origin: 'right' });
+  //    ScrollReveal().reveal('.add-collection .off ', { delay: 500,  origin: 'right' });
+  //    ScrollReveal().reveal(' .custom', { delay: 200, origin: 'bottom'  });
+  //    ScrollReveal().reveal(' .saleinfo', { delay: 200, origin: 'bottom'  });
+  //    ScrollReveal().reveal(' .shopnow', { delay: 200, origin: 'bottom'  });
+     
+  //    ScrollReveal().reveal('.bridal-img ', { delay: 200, origin: 'left' }); -->
+ 
+
+     
+  
+    
       
       </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

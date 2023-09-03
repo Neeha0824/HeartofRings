@@ -14,6 +14,14 @@
  
   
 }
+a{
+  margin-left: 44px;
+}
+.logo{
+  margin-left: 16px;
+  height: 65px;
+}
+
 
 
 .text-carosal {
@@ -28,19 +36,24 @@
 }
 
 .see{
-background: linear-gradient(-45deg, #e581ab 0%, #f3eac9 100% );
 display: block;
 margin-left: 555px;
 z-index: -1;
 margin-right: 1999px;
 border: none;
 height: 50px;
-width: 180px;
-border-radius: 15px 15px 15px 15px;
+width: 240px;
+margin-top: 200px;
+background-color: black;
+color: white;
+
+margin-top: 26px;
+font-weight: 600;
+
 }
 .shopbtn{
 
-background: linear-gradient(-45deg, #e581ab 0%, #f3eac9 100% );
+
 display: block;
 margin-left: 55px;
 z-index: -1;
@@ -48,7 +61,12 @@ margin-right: 1999px;
 border: none;
 height: 50px;
 width: 180px;
-border-radius: 15px 15px 15px 15px;
+
+background-color: black;
+color: white;
+margin-left: 206px;
+margin-top: 11px;
+font-weight: 600;
 }
 
 .left-side{
@@ -74,16 +92,7 @@ border-radius: 15px 15px 15px 15px;
 
 }
 
-/* .add-collection{
-  float: right;
-  background-image: url('./images/ring.png');
-  background-size: 100%; 
-  background-repeat: no-repeat;
-  position: scroll;
-  height: 400px;
-  opacity: 0.5;
-  margin-top: 100px;
-} */
+
 
 .size{
   height: 400px;
@@ -127,7 +136,7 @@ border-radius: 15px 15px 15px 15px;
 }
 .add-collection{
 margin-left: 20px;
-  /* background-color: rgba(238, 176, 104, 0.774); */
+  background-color: #f3eac9;
   height: 300px;
   width: 400px;
 }
@@ -229,202 +238,95 @@ display: flexbox;
 
 
 .video-Div{
-display: flex;
+
 align-items: center;
-justify-content: space-evenly;
+justify-content: center;
+
+margin-left: 1000px;
+
+
 
 }
+.vd-1{
+  margin-left: 10px;
+}
 
-.about-us{
+/* .visit{
+display: flexbox;
+display: inline-block;
 display: flex;
+height: 500px;
+width: 1200px;
+background-color: black;
 
 
 }
 .left-div{
 float: left;
-
-height: 500px;
-
-}
-
-.right-div{
-float: right;
-height:500px;
-content: justify;
-}
-.read{
-margin-left: 25px;
-font-size: 34px;
-font-weight: 800;
-
-font-family: 'Dosis', sans-serif;
-
-}
-.background{
-/* background: rgba(0, 0, 0, 0.55)url(./images/r2.jpg); */
-background-size: 100%; 
-background-repeat: no-repeat;
-position: scroll;
-height: 550px;
-width: 100%;
-
-
-
-
-}
-.co-name{
-font-size: 2rem;
-  font-family: 'Dosis', sans-serif;
-  margin-left:30px ;
-  color:lightcoral ;
-}
-.about{
-display: flex;
-}
-.pic-1{
-height: 250px;
-}
-.img-about{
-align-items: center;
-justify-content: center;
-}
-p{
-color: coral;
-}
-
-
-
-
-
-
-.Icons{
-width: 800px;
-display: flex;
-margin-top: 10px;
-}
-
-.IconDiv{
-padding: 10px;
-height: 120px;
-width: 120px;
-}
-
-.IconIMG{
-height: 100px;
-width: 100px;
-border-radius: 50%;
-
-}
-.team{
-font-size: 2rem;
-font-family: 'Dosis', sans-serif;
-
-color:lightcoral ;
-text-align: center;
-
-
-}
-
-.nav-text{
-width: 9em;
-text-align: center;
-height: 3em;
-border-radius: 30em;
-font-size: 15px;
-font-family: inherit;
-margin-top: 10px;
-border: none;
-position: relative;
-overflow: hidden;
-z-index: 1;
-
-/* box-shadow: 6px 6px 12px #c5c5c5,
-            -6px -6px 12px #ffffff; */
-}
-
-.nav-text::before {
-content: '';
-width: 0;
-height: 3em;
-border-radius: 30em;
-position: absolute;
-top: 0;
-left: 0;
- background: linear-gradient(-45deg, #e581ab 0%, #f3eac9 100% );
-transition: .5s ease;
-display: block;
-z-index: -1;
-}
-
-.nav-text:hover::before {
-width: 9em;
-}
-
-
-
-
-.cards{
-background: linear-gradient(-45deg, #e581ab 0%, #f3eac9 100% );
+background-color: #f5a637;
+width: 500px;
 height: 400px;
+
+
+
+}
+.right-div{
+  float: right;
+  background-color: #e581ab;
+  width: 500px;
+  height: 400px;
+  
+  } */
+/* Need Guidance? Consult An Expert.
+Receive one-on-one, personal guidance from our industry leading diamond experts in-store or online. */
+
+.backgroundring{
+  /* background-color: #e581ab; */
+  display: block;
+
+  height: 400px;
+  width: 1300px;
+  margin-left: 120px;
+}
+.showroom{
+  
+  height: 360px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 6px;
+
+}
+.ring{
+  float:left;
+}
+.visit{
+  float: right;
+  margin-top: 50px;
+
+  height: 300px;
+  width: 600px;
+  margin-right: 100px;
+}
+.words{
+  margin-left: 20px;
+
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  
+}
+h6{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  font-style: italic;
 }
 
-.cards {
-display: flex;
-flex-direction: row;
-gap: 15px;
-align-items: center;
-justify-content: center;
-}
-
-.cards .red {
-background-color: white;
-}
-
-.cards .blue {
-background-color: white;
-}
-
-.cards .green {
-background-color: white;
-}
-
-.cards .card {
-display: flex;
-align-items: center;
-justify-content: center;
-
-text-align: center;
-height: 290px;
-width: 350px;
-border-radius: 10px;
-color: white;
-cursor: pointer;
-transition: 400ms;
-}
 
 
 
-.cards .card p.second-text {
-color: black;
-font-size: 17px;
-font-weight: 600;
-}
 
-.cards .card:hover {
-transform: scale(1.1, 1.1);
-}
 
-.cards:hover > .card:not(:hover) {
 
-transform: scale(0.9, 0.9);
-}
-.icon{
-
-height: 150px;
-}
-.star{
-height: 30px;
-}
 
 
 .white-container{
@@ -510,9 +412,9 @@ font-family: 'Dosis', sans-serif;
   display: block;
   height: 600px;
   width: 1300px;
-
+background-color: #e581ab;
    margin-left: 120px;
-   margin-top: 90px;
+   margin-top: 290px;
 }
 
 .location{
