@@ -8,6 +8,7 @@
 
 .navbar{
   position: relative;
+
 }
 
 
@@ -296,16 +297,27 @@ h7{
 }
 
 
-.book{
-  height: 125px;
-  width: 177px;
-  margin-left: 20px;
-  border: 2px solid black;
+
+
+.book {
+  display: inline-block;
+  background: #fff;
   color: black;
-   padding: 11px;
-   margin-top: 112px;
+  /* box-shadow:  8px 8px 15px #d1d9e6, -10px -10px 15px #fff;; */
+  padding: 10px 20px;
+  border-radius: 0.5rem;
   font-weight: 600;
+  transition: 0.6s;
+  border: none;
+  margin-left: 20px;
+
 }
+.book:hover {
+  
+
+  scale: 1.04;
+}
+
 
 
 
@@ -346,14 +358,14 @@ h7{
 .TextFont-Text{
   text-decoration: solid;
   color: black;
-  font-size: 45px;
+  font-size: 40px;
 
 }
 
 .TextFont-SmallText{
   text-decoration: solid;
   color: black;
-  font-size: 30px;
+  font-size: 23px;
 
 }
 
@@ -390,10 +402,19 @@ h7{
 }
 .logo-footer{
   height: 200px;
+  margin-top: 20px;
 }
 .text-reset{
   margin-left: 110px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .address{
   margin-left:50px ;
+  font-weight: 600;
+}
+span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: italic;
 }
