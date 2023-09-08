@@ -6,16 +6,13 @@
 
 }
 
-.NavBarDiv{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
- 
-  
+.navbar{
+  position: relative;
 }
+
+
 a{
-  margin-left: 44px;
+  margin-left: 84px;
 }
 .logo{
   margin-left: 16px;
@@ -251,39 +248,11 @@ margin-left: 1000px;
   margin-left: 10px;
 }
 
-/* .visit{
-display: flexbox;
-display: inline-block;
-display: flex;
-height: 500px;
-width: 1200px;
-background-color: black;
-
-
-}
-.left-div{
-float: left;
-background-color: #f5a637;
-width: 500px;
-height: 400px;
-
-
-
-}
-.right-div{
-  float: right;
-  background-color: #e581ab;
-  width: 500px;
-  height: 400px;
-  
-  } */
-/* Need Guidance? Consult An Expert.
-Receive one-on-one, personal guidance from our industry leading diamond experts in-store or online. */
 
 .backgroundring{
-  /* background-color: #e581ab; */
-  display: block;
 
+  display: block;
+  margin-bottom: 25px;
   height: 400px;
   width: 1300px;
   margin-left: 120px;
@@ -301,30 +270,59 @@ Receive one-on-one, personal guidance from our industry leading diamond experts 
 }
 .visit{
   float: right;
-  margin-top: 50px;
+  margin-top: 100px;
 
-  height: 300px;
+  height: 200px;
   width: 600px;
   margin-right: 100px;
 }
 .words{
   margin-left: 20px;
-
+  margin-top: 120px;
   font-size: 32px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-  
+  font-weight: 700;
+
 }
 h6{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   justify-content: center;
   font-style: italic;
+  margin-left: 20px;
+}
+h7{
+  margin-left: 20px;
+  text-align: center;
 }
 
 
+.book{
+  height: 125px;
+  width: 177px;
+  margin-left: 20px;
+  border: 2px solid black;
+  color: black;
+   padding: 11px;
+   margin-top: 112px;
+  font-weight: 600;
+}
 
-
-
+.contain{
+  background-image: url('./images/2ringsimg.webp');
+  background-size: 90%; 
+  background-repeat: no-repeat;
+  position: scroll;
+  height: 400px;
+  margin-left: 125px;
+  margin-top: 20px;
+  
+}
+.box{
+  height: 250px;
+  width: 250px;
+  background-color: #642020;
+  ;
+}
 
 
 
@@ -515,5 +513,57 @@ textarea {
 .model3{
   display: inline-block;
   height: 490px;
+
+}
+
+.TestFont{
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TextFont{
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TextFont-Text{
+  text-decoration: solid;
+  color: black;
+  font-size: 45px;
+
+}
+
+.TextFont-SmallText{
+  text-decoration: solid;
+  color: black;
+  font-size: 30px;
+
+}
+
+.TestimonialDiv{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+.TestimonialDiv2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.TestImg{
+ 
+ margin-top: 2px; 
+}
+.Img{
+  height: 416px;
 
 }
