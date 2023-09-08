@@ -230,7 +230,7 @@ display: flexbox;
   align-items: center;
   justify-content: center;
   margin-left: 156px;
-  background-color: #f3eac9;
+  /* background-color: #f3eac9; */
 }
 
 
@@ -307,197 +307,10 @@ h7{
   font-weight: 600;
 }
 
-.contain{
-  background-image: url('./images/2ringsimg.webp');
-  background-size: 90%; 
-  background-repeat: no-repeat;
-  position: scroll;
-  height: 400px;
-  margin-left: 125px;
-  margin-top: 20px;
-  
-}
-.box{
-  height: 250px;
-  width: 250px;
-  background-color: #642020;
-  ;
-}
 
 
 
 
-.white-container{
-height: 120px;
-width: 100%;
-
-}
-.customer{
-margin-top: 4px;
-padding: 20px;
-text-align: center;
-}
-
-.imageslider {
-margin-right:120px;
-margin-left: 120px;
-
-}
-
-.slider-cell {
-width: 56%;
-height: 300px;
-margin-right: 5px;
-background: white;
-border-radius: 5px;
-border: 1px solid  #f5a637;
-/* counter-increment: slider-cell; */
-}
-
-/* cell number */
-.slider-cell:before {
-display: block;
-text-align: center;
-/* content: counter(slider-cell); */
-line-height: 200px;
-font-size: 90px;
-
-}
-.fst-customer{
-
-padding: 20px;
-}
-
-.p-2{
-  
-display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 40px;
-margin-inline-end: 40px;
-float: left;
-margin-top: 60px;
-font-size: 17px;
-color: black;
-font-weight: 500;
-}
-.pic-1{
-float: right;
-margin-top: 20px;
-padding: 10px;
-}
-.pic{
-border-radius: 50%;
-height: 190px;
-}
-
-
-/* h2{
-  
-margin-left: 25px;
-font-size: 34px;
-font-weight: 800;
-
-font-family: 'Dosis', sans-serif;
-} */
-
-.contact-container{
-  display: block;
-  height: 600px;
-  width: 1300px;
-background-color: #e581ab;
-   margin-left: 120px;
-   margin-top: 290px;
-}
-
-.location{
-  margin-top: 25px;
-  float: left;
-}
-
-
-.details{
-  float: right;
-
-
-
-
-}
-.contact-form {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.contact-form label {
-  color: black;
-}
-
-.contact-form .heading {
-  font-size: 24px;
-  color: black;
-  ;
-  margin-bottom: 12px;
-  font-weight: bold;
-  display: block;
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form label {
-  margin-bottom: 10px;
-}
-
-textarea {
-  resize: none;
-  height: 280px;
-  width: 500px;
-}
-
-.contact-form input, .contact-form textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.contact-form input:focus, .contact-form textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px #ff6384;
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-.contact-form button[type="submit"] {
-  background-color: #ff6384;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.contact-form button[type="submit"]:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-
-.container{
-  height: 700px;
-
-  width: 100%;
-  margin-top: 20px;
-}
 .model{
   height: 450px;
   width: 300px;
@@ -571,4 +384,16 @@ textarea {
 .Img{
   height: 280px;
   
+}
+.footer{
+  background-color: black;
+}
+.logo-footer{
+  height: 200px;
+}
+.text-reset{
+  margin-left: 110px;
+}
+.address{
+  margin-left:50px ;
 }
