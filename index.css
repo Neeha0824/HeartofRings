@@ -545,25 +545,30 @@ textarea {
 }
 
 .TestimonialDiv{
-  margin-top: 10px;
-  display: flex;
+  margin-top: 3x;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  height: 350px;
+  justify-content: center; */
+  height: 270px;
+  margin-left: 110px;
+ 
 }
 
 .TestimonialDiv2{
-  display: flex;
+  /* display: block;
   align-items: center;
-  justify-content: center;
+  justify-content:center; */
 
+ margin-top: 5px;
+ margin-left: 110px;
 }
 
 .TestImg{
- 
- margin-top: 2px; 
-}
-.Img{
-  height: 416px;
 
+ margin-top: 12px;
+}
+
+.Img{
+  height: 280px;
+  
 }
